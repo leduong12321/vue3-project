@@ -7,7 +7,7 @@
     >
         <v-list>
         <v-list-item
-            prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
+            prepend-avatar="https://cdn.vuetifyjs.com/images/john.jpg"
             title="Lê Thanh Dương"
             subtitle="duonglt@hoaphat.com.vn"
         ></v-list-item>
@@ -16,7 +16,7 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-        <v-list-item prepend-icon="mdi-folder" title="Danh sách sổ" value="myfiles"></v-list-item>
+        <v-list-item prepend-icon="mdi-folder" @click="$router.push('/')" title="Danh sách sổ" value="myfiles"></v-list-item>
         <v-list-item prepend-icon="mdi-account-multiple" title="Danh sách người dùng" value="shared"></v-list-item>
         </v-list>
     </v-navigation-drawer>

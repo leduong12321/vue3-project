@@ -1,178 +1,44 @@
 export const book = [
     {
-        "_id": "1",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 1,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
+      "id": "b9d2ba28-70d5-47e2-b9ff-15a78ff513f2",
+      "created_time": 1678430017000,
+      "crew": "A",
+      "content": {
+        "Ngày": "2023-03-03",
+        "Thiết bị": "Màn hình",
+        "S/N": "1",
+        "Số lượng": 1,
+        "Bên nhận": "Dương",
+        "Mục đích sử dụng": "",
+        "Ghi chú": ""
+      }
     },
     {
-        "_id": "2",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
+      "id": "179c5885-a95e-4ba1-b2e7-48ebb0157282",
+      "created_time": 1678430004000,
+      "crew": "A",
+      "content": {
+        "Ngày": "2023-03-02",
+        "Thiết bị": "Bàn phím",
+        "S/N": "1",
+        "Số lượng": 1,
+        "Bên nhận": "Dương",
+        "Mục đích sử dụng": "",
+        "Ghi chú": ""
+      }
     },
     {
-        "_id": "3",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 1,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
-    },
-    {
-        "_id": "4",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
-    },
-    {
-        "_id": "5",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 1,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
-    },
-    {
-        "_id": "6",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
-    },
-    {
-        "_id": "7",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 1,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
-    },
-    {
-        "_id": "8",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
-    },
-    {
-        "_id": "9",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 1,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
-    },
-    {
-        "_id": "10",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
-    },
-    {
-        "_id": "11",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 1,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
-    },
-    {
-        "_id": "12",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
-    },
-    {
-        "_id": "13",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 1,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
-    },
-    {
-        "_id": "14",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
-    },
-    {
-        "_id": "15",
-        "_crew": "HC",
-        "date": "2022-03-10",
-        "device": "Dell Optiplex 3090",
-        "sn": "JTN67L3",
-        "quantity": 2,
-        "receive_person": "Phạm Văn Long",
-        "purpose": "Phục vụ công việc",
-        "remark": "email: longpv@hoaphat.com.vn\nsdt:0974082639"
-    },
-    {
-        "_id": "16",
-        "_crew": "HC",
-        "date": "2022-04-06",
-        "device": "Chuột máy tính Logitech B100",
-        "sn": "2103HS06FE89",
-        "quantity": 1,
-        "receive_person": "Trần Văn Hà",
-        "purpose": "Hỗ trợ sản xuất",
-        "remark": "Đã thu hồi chuột cũ (lô 5 chuột)"
+      "id": "353e1ab9-5075-47b8-bf87-9cbd009c688c",
+      "created_time": 1678429986000,
+      "crew": "A",
+      "content": {
+        "Ngày": "2023-03-01",
+        "Thiết bị": "Chuột",
+        "S/N": "1",
+        "Số lượng": 1,
+        "Bên nhận": "",
+        "Mục đích sử dụng": "",
+        "Ghi chú": ""
+      }
     }
-]
+  ]

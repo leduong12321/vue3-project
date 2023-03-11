@@ -4,7 +4,7 @@
       <v-col
         cols="3"
         sm="4"
-        v-for="item in listBooks" :key="item.id"
+        v-for="item in data" :key="item.id"
       >
       <v-card
         class="mx-auto"
@@ -33,30 +33,20 @@
     </v-row>
   </v-container>
 </template>
-<script>
 
-export default {
-  data() {
-    return {
-      listBooks : []
-    }
-  },
-  
-  mounted() {
-    this.getData();
-    this.asyncData();
-  },
-  methods: {
-    toDetail(value) {
-      this.$router.push('/books/' + value);
-    },
-    async getData() {
-      const response  = await fetch("http://192.168.149.143:8000/api/v1/book?page=1&page_size=50");
-      this.listBooks = await response.json();
-    },
+<script setup>
+import { useRouter } from 'vue-router'
+import { bookHeader } from "../stores/bookHeader";
+
+  const test = bookHeader();
+  const router = useRouter();
+  const { data } = await useFetch("http://192.168.149.143:8000/api/v1/book?page=1&page_size=50");
+  function toDetail(id) {
+    router.push('/books/' + id);
+    test.setHeader(data.value[0].fields);
   }
-}
 </script>
+
 <style scoped lang="scss">
 .title {
   display:inline-block;
